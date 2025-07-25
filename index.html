@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P. Rahul Reddy | Full Stack Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    body {
+      background: #0e0e0e;
+      color: #e0e0e0;
+      font-family: 'Fira Code', monospace;
+    }
+    .glow-text {
+      color: #00ff99;
+      text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body class="overflow-x-hidden">
+
+<!-- Hero Section -->
+<section class="h-screen flex flex-col justify-center items-center text-center px-6">
+  <h1 class="text-5xl md:text-7xl font-bold glow-text mb-4">P. Rahul Reddy</h1>
+  <span id="typed-text" class="text-lg md:text-2xl text-gray-400"></span>
+  <div class="mt-6 space-x-4">
+    <a href="https://github.com/rahulreddypalle" target="_blank" class="text-2xl text-white hover:text-green-400"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/rahul-reddy-044294256/" target="_blank" class="text-2xl text-white hover:text-green-400"><i class="fab fa-linkedin"></i></a>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="py-16 px-8 bg-gray-900" data-aos="fade-up">
+  <h2 class="text-4xl text-center font-bold glow-text mb-8">Skills</h2>
+  <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto text-sm text-gray-300">
+    <ul class="list-disc list-inside space-y-2">
+      <li>HTML5, CSS3, JavaScript (ES6+)</li>
+      <li>React.js, Node.js, Express.js</li>
+      <li>MongoDB, MySQL</li>
+      <li>RESTful APIs, JWT Authentication</li>
+      <li>Git, GitHub, Version Control</li>
+    </ul>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Responsive Design, Tailwind CSS, Bootstrap</li>
+      <li>MVC Architecture, Asynchronous Programming</li>
+      <li>API Integration, JSON, Axios</li>
+      <li>Deployment: Vercel, Netlify, Render, Heroku</li>
+      <li>Basic Web Security (CORS, XSS, CSRF), Postman, Figma</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="py-16 px-8" data-aos="fade-up">
+  <h2 class="text-4xl text-center font-bold glow-text mb-12">Projects</h2>
+  <div class="max-w-4xl mx-auto grid md:grid-cols-1 gap-8">
+    <div class="glass p-6 text-left shadow-lg">
+      <h3 class="text-2xl font-semibold text-green-300">Ecomlit</h3>
+      <p class="mt-2 text-gray-300">A fully functional e-commerce web application inspired by Blinkit, featuring product listings, cart management, authentication, and order simulation. Built using MERN stack with responsive UI and seamless API integration.</p>
+      <a href="#" class="inline-block mt-4 text-green-400 hover:underline">View on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 bg-gray-900 text-center text-gray-500">
+  <p>© 2025 P. Rahul Reddy | Full Stack Developer</p>
+</footer>
+
+<script>
+  var typed = new Typed("#typed-text", {
+    strings: [
+      "Full Stack Developer.",
+      "MERN Stack Specialist.",
+      "API Integrator.",
+      "Bug Hunter. Code Optimizer."
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+  });
+  AOS.init();
+</script>
+</body>
+</html>
